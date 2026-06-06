@@ -1,4 +1,6 @@
-## 3. Impact of gamma
+# Documentation
+
+## Impact of gamma
 
 the discount factor is a parameter that determiines how much the rewards in the future are cared offor.
 
@@ -18,7 +20,7 @@ The agent takes teh shortest possible path. because taking a longer, safer detou
 when gamma is near 1, the agent values a reward 50 steps from now almost as much as a reward current step.
 the agent seeks the safest possible path. because the penalty for taking a longer route is negligible, the agent is willing to take a walk around the outside edge of the map to avoid walking near any holes.
 
-## 4. Impact of changing reward structure
+## Impact of changing reward structure
 
 ### S=0; H=-1; G=1;
 
